@@ -1,0 +1,166 @@
+//AULA 27.06.23
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My homepage</title>
+</head>
+<body>
+    <img src="IMG/logo.jpg" alt="logo" width="230" title="Logo" >
+    <h1>Eu caguei nas calcas!!!!!!</h1>
+    <h2>É isso mesmo o quê vose leu sua vaca, eu me caguei!</h2>
+    <hr>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+		<br>Voluptate doloremque aliquam assumenda architecto nemo neque pariatur,
+		<br> tempora explicabo sunt accusamus ullam omnis dolor, eius cupiditate mollitia vel. Reiciendis, doloremque officia!
+    </p>
+    <hr>
+<a href="http://www.pudim.com.br/">PUDIMKJJKKJJKJKJJJKKJKFODASE</a>
+<!--Implantação de Link-->
+<hr>
+<br>
+<br>
+
+<hr>
+
+</body>
+</html> 
+
+//Aula 28.06.23
+
+<ol>
+    <li>Primeiro elemento</li>
+    <li>Segundo elemento</li>
+    <li>Terceiro elemento</li>
+    <li>Quarto elemento</li>
+    <li>Quinto elemento</li>
+    <li>Sexto elemento</li>
+</ol>
+<!--Lista ordenada-->
+<hr>
+<ul>
+    <li>Primeiro elemento</li>
+    <li>Segundo elemento</li>
+    <li>Terceiro elemento</li>
+</ul>
+<!--Lista sem ordem-->
+
+</head>
+<body>
+    <!--Criação de tabela-->
+    <table border="5">
+        <tr>
+            <th>Aluno</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+             
+        </tr>
+<!--O th é como se fosse o título, a primeira informação-->
+        <tr>
+            <td>Ferri</td>
+            <td>9.5</td>
+            <td>8.7</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Pedro</td>
+            <td>10</td>
+            <td>5.5</td>
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td>Felipe</td>
+            <td>6.5</td>
+            <td>8</td>
+            <td>10</td>
+        </tr>
+    </table>
+
+    <hr>
+    <hr>
+
+    <table border="5">
+        <caption>Produtos</caption>
+        <thead>
+            <th>Cod</th>
+            <th>Nome</th>
+            <th>Preço</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <th>Galaxy S21</th>
+                <th>1900,00</th>
+            </tr>
+            <tr>
+                <td>002</td>
+                <th>Galaxy A34</th>
+                <th>1500,00</th>
+            </tr>
+        </tbody>
+    </table>
+    <!--Tabela criada de acordo com as regras da semântica do HTML5-->
+</body>
+</html>
+
+</head>
+<body>
+    <H1>Contato</H1>
+    <a href="index.html">Homepage</a>
+
+    <h2>Formulário de Exemplo</h2>
+
+    <form action="/Submit_form" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+
+        <input type="submit" value="Enviar">
+        </form>
+        <!--Montagem de formulário-->
+</body>
+</html>
+
+//Aula 29.06.23
+
+</head>
+<body>
+    <h1 style="color: rgba(207, 17, 17, 0.623);">Cadastro</h1>
+    <h2 style="color:rgba(216, 13, 13, 0.562);">Realize seu cadastro imediatamente e tenha acesso à conteúdos exclusivos.</h2>
+    <form>
+        Usuário:
+        <input type="text" name="nome"><br><br>
+        Email:
+        <input type="email" name="email"><br><br>
+        Senha:
+        <input type="password" senha="senha"><br><br>
+        Masculino:
+        <input type="radio" name="sexo" value="M">
+        Feminino:
+        <input type="radio" name="sexo" value="F"><br><br>
+
+        Escolhe aí: <br>
+        <input type="checkbox" name="interesses">PHP<br>
+        <input type="checkbox" name="interesses">JS<br>
+        <input type="checkbox" name="interesses">Python<br>
+        <input type="checkbox" name="interesses">VB<br><br>
+
+
+        <input type="submit" value="Cadastrar">
+		<!--Criação de formulário e checkbox-->
+
+    </form>
+</body>
+</html>
