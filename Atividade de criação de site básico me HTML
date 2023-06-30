@@ -1,0 +1,80 @@
+</head>
+<body>
+    <img src="IMG/logoTNF.jpg" alt="logo" width="100" title="Logo" >
+    <h1 style="color: rgb(255, 0, 0);">Login</h1>
+    <h2>Caso ainda não tenha uma conta, realize seu cadastro no link abaixo e tenha acesso imediato aos conteúdos exclusivos.</h2>
+    <a href="Cadastro.html">REALIZE SEU CADASTRO</a><br><br>
+    <form>
+        Usuário:
+        <input type="text" name="nome"><br><br>
+        Email:
+        <input type="email" name="email"><br><br>
+        Senha:
+        <input type="password" senha="senha"><br><br>
+       
+        
+
+
+        <input type="submit" value="Cadastrar">
+        <br><br>
+        <a href="contato.html">SUPORTE</a><br><br>
+        <hr>
+
+    </form>
+</body>
+</html>
+
+</head>
+<body><form> 
+    <fieldset>
+        <img src="IMG/logoTNF.jpg" alt="logo" width="100" title="Logo" >
+        <legend>CADASTRO</legend>
+        <p>Insira seu nome completo: <input type="text"></p>
+        <p>Insira seu CPF: <input type="text"></p>
+        <p>Insira seu RG: <input type="text"></p>
+        <p>Insira seu email: <input type="email"></p>
+        <p>Insira uma senha: <input type="password"></p>
+        <p>Insira o número do seu celular : <input type="text"></p>
+        Masculino:
+        <input type="radio" name="sexo" value="M">
+        Feminino:
+        <input type="radio" name="sexo" value="F"><br>
+        <p>Selecione um arquivo: <input type="file"></p>
+        <p>Data de nascimento: <input type="date"></p>
+        <p>Horário de nascimento: <input type="time"></p>
+        <input style="position:fixed;width:50%;margin-left:250px;" type="submit" value="Cadastrar">
+        <a href="Login.html">LOGIN</a>
+    </fieldset>
+    
+</form>
+
+    
+</body>
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <img src="IMG/logoTNF.jpg" alt="logo" width="100" title="Logo" >
+    <H1 style="color: red"> Contato </H1>
+
+    <h2 style="color: red"> Suporte</h2>
+
+    <form action="/Submit_form" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Enviar"><br><br>
+        </form>
+        <a href="Login.html">LOGIN</a>
+        
+</body>
+</html>
