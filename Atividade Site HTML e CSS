@@ -1,0 +1,396 @@
+//Aula 01.08
+
+</head>
+<body>
+    <header>
+        <div class="logo">Supertv+</div>
+        <nav class="menu">
+            <ul>
+                <a href="#">Home</a> |
+                <a href="#">Planos</a> |
+                <a href="#">Contato</a> |
+                <a href="#">Assine agora</a>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="titulo">Escolha o seu Plano</h1>
+
+    <section class="planos">
+        <div class="plano">
+            <h2>Básico</h2>
+            <p>99,00 / Mês</p>
+            <ul>
+                <li>50 Canais</li>
+                <li>Filmes e séries</li>
+                <li>Na TV ou Celular</li>
+            </ul>
+            <a href="#">Assine agora</a>
+        </div>
+    </section>
+
+    <section class="planos">
+        <div class="plano">
+            <h2>Família</h2>
+            <p>139,00 / Mês</p>
+            <ul>
+                <li>100 Canais</li>
+                <li>Filmes e séries</li>
+                <li>Na TV ou Celular</li>
+            </ul>
+            <a href="#">Assine agora</a>
+        </div>
+    </section>
+
+    <section class="planos">
+        <div class="plano">
+            <h2>Super</h2>
+            <p>199,00 / Mês</p>
+            <ul>
+                <li>200 Canais</li>
+                <li>Filmes e séries</li>
+                <li>Na TV ou Celular</li>
+            </ul>
+            <a href="#">Assine agora</a>
+        </div>
+    </section>
+</body>
+</html>
+
+//Style CSS
+
+body {
+        background-color: rgb(66, 55, 55);
+        color: azure;
+        width: 90%;
+        max-width: 1017px;
+        margin: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 15px;
+    }
+    
+    .logo{
+        font-size: 36px;
+        text-transform: uppercase;
+        margin-left: 15px;
+    }
+
+    .titulo{
+        font-size: 55px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 45 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 4px 5px 8px deeppink;
+    }
+
+    .menu ul{
+        display: flex;
+        list-style-type: none;
+        font-size: 18px;
+        gap: 16px;
+    }
+
+    .menu a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .menu :hover{
+        color: deeppink;
+        text-decoration: underline;
+    }
+
+    .planos{
+        display: flex;
+        gap: 16px;
+    }
+    
+    .plano{
+        flex: 1;
+        background-color: deeppink;
+        padding: 16px;
+        border-radius: 16px;
+        box-shadow: 0 5px 12px 0 rgb(235, 20, 152);
+    }
+
+    .plano a{
+        display: flex;
+        text-decoration: none;
+        font-size: 16px;
+        background-color: rgb(140,140,192);
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        justify-content: center;
+        font-weight: bold;
+        width: 120px;
+        margin-left: 27%;
+    }
+
+    .plano h2{
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        border-bottom: solid 2px chartreuse;
+        margin-top: 0;
+        letter-spacing: 2px;
+    }
+    .imagem{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+//Aula 02.08
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <div class="logo"><h1><span class="i">i</span>Blog</h1></div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="principal">
+            <div class="posts">
+
+                <div class="post">
+                    <h2>iPhone 12</h2>
+                   <p>Postado em: 02/08</p>
+                    <img width="300px" src="img/iphone12.png" alt="iPhone12">
+                    <p>O Apple iPhone 12 é um dos smartphones iOS mais avançados e completos que existem em circulação. Tem um grande display de 6.1 polegadas com uma resolução de 2532x1170 pixel.</p>
+                  <a href="#">Leia mais</a>
+                 </div>
+                    <br>
+
+                 <div class="post2">
+                    <h2>iPhone 13</h2>
+                   <p>Postado em: 02/08</p>
+                    <img width="300px" src="img/iphone13.png" alt="iPhone12">
+                    <p>O Apple iPhone 13 é um dos smartphones iOS mais avançados e completos que existem em circulação. Tem um grande display de 6.1 polegadas com uma resolução de 2532x1170 pixel.</p>
+                  <a href="#">Leia mais</a>
+                 </div>
+            </div>
+            <div class="lateral">
+            <h3>Recentes</h3>
+          <div class="post-lateral">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, voluptas!</p>
+            <img width="300px" src="img/mamao.png" alt="iPhone12">
+            <a href="#">Leia mais</a>
+          </div>
+
+          <div class="lateral2">
+            <h3>Recentes</h3>
+          <div class="post-lateral2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, voluptas!</p>
+            <img width="300px" src="img/kiwi.png" alt="iPhone12">
+            <a href="#">Leia mais</a>
+          </div>
+
+
+        </div>
+    </main>
+</body>
+</html>
+
+//Style
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+.i{
+    color: white;
+}
+
+.header{
+    background-color: blueviolet;
+}
+
+.cabecalho{
+    border: solid 2px blueviolet;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: blueviolet;
+    padding-bottom: 50px;
+    word-spacing: 20px;
+    height: 80px;
+}
+
+.logo{
+    margin-top: 25px;
+}
+
+.menu{
+    margin:25px;
+    align-items: center;
+}
+
+.menu :hover{
+    background-color: white;
+    border-radius: 2px;
+    color: blueviolet;
+    font-weight: bold;
+    justify-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.post{
+    gap: 16px;
+    background-color: white;
+    width: 35%;
+    margin-left: 25%;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post h2{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.post p{
+    margin-left: 15px;
+}
+
+.post a{
+    margin-left: 15px;
+    margin-top: 15px;
+    color: blueviolet;
+    border-radius: 4px;
+}
+
+.post a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.post2{
+    gap: 16px;
+    background-color: white;
+    width: 35%;
+    margin-left: 25%;
+    height: 360px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post2 h2{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.post2 p{
+    margin-left: 15px;
+}
+
+.post2 a{
+    margin-left: 15px;
+    margin-top: 15px;
+    color: blueviolet;
+    border-radius: 4px;
+}
+
+.post2 a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.lateral{
+    position: absolute;
+    top: 134px;
+    left: 60%;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 4px;
+    width: 450px;
+    height: 273px;
+}
+
+.lateral h3{
+    font-weight: bold;
+    text-decoration: underline;
+    margin:4px;
+    padding-bottom:3px;
+}
+
+.post-lateral p{
+    margin-left: 4px;
+    padding-bottom: 7px;
+}
+
+.post-lateral a{
+    display: flex;
+    margin-left: 4px;
+    margin-right: 370px;
+    border-radius: 4px;
+    color: blueviolet;
+}
+
+.post-lateral a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.lateral2{
+    position: absolute;
+    top: 280px;
+    left: -3px;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 4px;
+    width: 450px;
+    height: 390px;
+}
+
+.lateral2 h3{
+    font-weight: bold;
+    text-decoration: underline;
+    margin:4px;
+    padding-bottom:3px;
+}
+
+.post-lateral2 p{
+    margin-left: 4px;
+    padding-bottom: 7px;
+}
+
+.post-lateral2 a{
+    display: flex;
+    margin-left: 4px;
+    margin-right: 370px;
+    border-radius: 4px;
+    color: blueviolet;
+}
+
+.post-lateral2 a:hover{
+    background-color: blueviolet;
+    color: white;
+}
